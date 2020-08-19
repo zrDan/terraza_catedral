@@ -15,8 +15,16 @@ body {
   color: #ffffff;
 }
 
+.header {
+  height: 211px;
+  background-image: url("/resources/terraza_logo.png");
+  background-size: 25px;
+}
+
 .header .video video {
   width: 100%;
+  height: 211px;
+  object-fit: cover;
 }
 
 .header .video {
@@ -34,10 +42,6 @@ body {
   background-color: rgb(0, 0, 0, 0.4);
 }
 
-.header .presentation_container .arrow {
-  display: none;
-}
-
 .header .presentation_container .logo img {
   height: 160px;
 }
@@ -45,7 +49,7 @@ body {
 .events {
   display: flex;
   height: 230px;
-  background-image: url("/resources/events.png");
+  background-image: url("/resources/events.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
@@ -96,7 +100,7 @@ body {
   display: grid;
   grid-template-rows: 15% 75%;
   height: 320px;
-  background-image: url("/resources/bar.png");
+  background-image: url("/resources/bar.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -214,4 +218,255 @@ table tr td {
 
 .socialmedia img {
   padding: 3px;
+}
+
+/* Mobile */
+@media screen and (min-width: 411px) {
+  .header {
+    height: 231px;
+  }
+
+  .header .video video {
+    height: 231px;
+  }
+
+  .header .presentation_container {
+    height: 231px;
+  }
+
+  .events {
+    height: 250px;
+  }
+
+  .events .info {
+    height: 180px;
+    width: 180px;
+  }
+
+  .events .info .title {
+    font-size: 1rem;
+  }
+
+  .events .info .text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .events .info .show_events {
+    font-size: 0.75rem;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .header {
+    height: 432px;
+  }
+
+  .header .video video {
+    height: 432px;
+  }
+
+  .header .presentation_container {
+    height: 432px;
+  }
+
+  .header .presentation_container .logo img {
+    height: 270px;
+  }
+
+  .events {
+    height: 400px;
+  }
+
+  .events .info {
+    height: 290px;
+    width: 290px;
+  }
+
+  .events .info .title {
+    font-size: 1.5rem;
+  }
+
+  .events .info .text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .events .info .show_events {
+    font-size: 1.2rem;
+  }
+
+  .events .info .show_events img {
+    padding-left: 5px;
+    padding-top: 1.5px;
+    height: 1.2rem;
+  }
+
+  .menu {
+    height: 480px;
+  }
+
+  .menu .menu_head .option {
+    padding-right: 60px;
+    font-size: 1.35rem;
+  }
+
+  .column-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-left: 20px;
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+  }
+
+  .column-content {
+    padding-top: 15px;
+    font-size: 1.2rem;
+  }
+
+  .menu .menu_content .more-info {
+    font-size: 1.2rem;
+  }
+
+  .menu .menu_content .more-info img {
+    height: 1.2rem;
+    padding-left: 5px;
+  }
+
+  table {
+    width: 90%;
+  }
+
+  table tr td {
+    height: 1.7rem;
+  }
+
+  .map {
+    height: 400px;
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    height: 200px;
+  }
+
+  .logo img {
+    height: 8rem;
+    padding-left: 20px;
+  }
+
+  .contact div h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact div p {
+    font-size: 1.2rem;
+  }
+
+  .socialmedia img {
+    padding: 3px;
+    height: 40px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .header {
+    height: 75vh;
+  }
+
+  .header .video video {
+    height: 75vh;
+  }
+
+  .header .presentation_container {
+    height: 75vh;
+  }
+
+  .header .presentation_container .logo img {
+    height: 300px;
+  }
+
+  .events {
+    height: 550px;
+    justify-content: left;
+    padding-left: 100px;
+  }
+
+  .events .info {
+    height: 335px;
+    width: 335px;
+  }
+
+  .events .info .title {
+    font-size: 1.8rem;
+    padding-top: 30px;
+  }
+
+  .events .info .text {
+    font-size: 1.3rem;
+    line-height: 1.55rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .events .info .show_events {
+    font-size: 1.2rem;
+  }
+
+  .events .info .show_events img {
+    height: 1.3rem;
+  }
+
+  .menu {
+    height: 600px;
+  }
+
+  .menu .menu_head .option {
+    padding-right: 100px;
+    font-size: 1.75rem;
+  }
+
+  .column-header {
+    font-size: 1.55rem;
+    padding-left: 30px;
+    letter-spacing: 1.7px;
+  }
+
+  .column-content {
+    padding-top: 20px;
+    font-size: 1.35rem;
+  }
+
+  .menu .menu_content .more-info {
+    font-size: 1.25rem;
+  }
+
+  .menu .menu_content .more-info img {
+    height: 1.3rem;
+  }
+
+  table {
+    width: 90%;
+  }
+
+  table tr td {
+    height: 2rem;
+  }
+
+  .map {
+    height: 600px;
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    height: 200px;
+  }
+
+  .contact {
+    width: 100%;
+  }
 }
