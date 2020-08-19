@@ -84,6 +84,7 @@ body {
 }
 
 .events .info .show_events {
+  cursor: pointer;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -159,6 +160,7 @@ body {
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 3;
+  cursor: pointer;
 }
 
 table {
@@ -428,6 +430,7 @@ table tr td {
   .menu .menu_head .option {
     padding-right: 100px;
     font-size: 1.75rem;
+    cursor: pointer;
   }
 
   .column-header {

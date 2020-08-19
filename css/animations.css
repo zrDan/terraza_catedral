@@ -1,0 +1,20 @@
+.pulse {
+  animation: pulse 1.7s;
+}
+
+.pulse_table {
+  animation: pulse 0.5s;
+}
+
+.video {
+  animation: pulse 1s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
