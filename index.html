@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/map.css" />
+    <title>Terraza Catedral</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="video">
+        <video
+          autoplay
+          muted
+          loop
+          id="presentation"
+          src="./resources/terraza(480p).mp4"
+        ></video>
+      </div>
+      <div class="presentation_container">
+        <div class="logo">
+          <img src="./resources/terraza_logo.png" alt="logo" />
+        </div>
+        <div class="arrow">
+          <img src="./resources/down-arrow.png" alt="arrow" />
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <section class="events">
+        <div class="info">
+          <div class="title">
+            Eventos
+          </div>
+          <div class="text">
+            Semana a semana contamos con DJ's y live acts invitados de todas
+            partes del mundo y residentes emblemáticos en la escena electrónica
+            mexicana.
+          </div>
+          <div class="show_events">
+            <p>Ver todos los eventos</p>
+            <img src="/resources/arrow.png" alt="arrow" />
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="menu_head">
+          <div class="option" id="driks">Bebidas</div>
+          <div class="option" id="snacks">Platillos</div>
+        </div>
+        <div class="menu_content">
+          <div class="first_column">
+            <div class="column-header">
+              Cervezas
+            </div>
+            <div class="column-content">
+              <table>
+                <tr>
+                  <td class="item">Barril Modelo Clara</td>
+                  <td>$45</td>
+                </tr>
+                <tr>
+                  <td class="item">Barril Modelo Oscura</td>
+                  <td>$45</td>
+                </tr>
+                <tr>
+                  <td class="item">Corona</td>
+                  <td>$50</td>
+                </tr>
+                <tr>
+                  <td class="item">Victoria</td>
+                  <td>$50</td>
+                </tr>
+                <tr>
+                  <td class="item">Pacifico</td>
+                  <td>$50</td>
+                </tr>
+                <tr>
+                  <td class="item">León</td>
+                  <td>$50</td>
+                </tr>
+                <tr>
+                  <td class="item">Corazón de Malta</td>
+                  <td>$110</td>
+                </tr>
+                <tr>
+                  <td class="item">Encanton Pilsner</td>
+                  <td>$120</td>
+                </tr>
+                <tr>
+                  <td class="item">Magna Imperial</td>
+                  <td>$110</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="second_column">
+            <div class="column-header">
+              Tequila
+            </div>
+            <div class="column-content">
+              <table>
+                <tr>
+                  <td class="item">
+                    Don Julio 70
+                  </td>
+                  <td>
+                    $210
+                  </td>
+                </tr>
+                <tr>
+                  <td class="item">Don Julio Blanco</td>
+                  <td>$150</td>
+                </tr>
+                <tr>
+                  <td class="item">Don Julio Reposado</td>
+                  <td>
+                    $160
+                  </td>
+                </tr>
+                <tr>
+                  <td class="item">
+                    Centenario Reposado
+                  </td>
+                  <td>
+                    $180
+                  </td>
+                </tr>
+                <tr>
+                  <td class="item">
+                    Herradura Blanco
+                  </td>
+                  <td>
+                    $100
+                  </td>
+                </tr>
+                <tr>
+                  <td class="item">
+                    Herradura Reposado
+                  </td>
+                  <td>
+                    $130
+                  </td>
+                </tr>
+                <tr>
+                  <td class="item">
+                    Patrón Cristalino
+                  </td>
+                  <td>
+                    $150
+                  </td>
+                </tr>
+                <tr>
+                  <td class="item">
+                    Tradicional Reposado
+                  </td>
+                  <td>
+                    $180
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="more-info">
+            <p>Más</p>
+            <img src="/resources/arrow.png" alt="arrow" />
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <h3>Ubicación</h3>
+        <div id="map"></div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="logo">
+        <img src="/resources/terraza_logo.png" alt="logo" />
+      </div>
+      <div class="contact">
+        <div>
+          <h2>Contacto</h2>
+          <p>55 5518 1726</p>
+        </div>
+        <div>
+          <h2>Dirección</h2>
+          <p>Republica de Guatemala #4 Ciudad de México, México</p>
+        </div>
+        <div>
+          <h2>Redes</h2>
+          <div class="socialmedia">
+            <a href="/">
+              <img src="/resources/Facebook.png" alt="facebook" />
+            </a>
+            <a href="/">
+              <img src="/resources/Instagram.png" alt="instagram" />
+            </a>
+            <a href="/">
+              <img src="/resources/Play Button.png" alt="youtube" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/map.js"></script>
+  </body>
+</html>
