@@ -1,6 +1,6 @@
 # Terraza Catedral
 This project is a proposal for Terraza Catedral site <BR>
-![web](https://user-images.githubusercontent.com/42875282/92638886-a11ddf00-f2a0-11ea-8392-68f65b802ff3.png) &nbsp; [Demo](https://aokiweb.herokuapp.com/.)
+![web](https://user-images.githubusercontent.com/42875282/92638886-a11ddf00-f2a0-11ea-8392-68f65b802ff3.png) &nbsp; [Demo](https://terraza-catedral.herokuapp.com)
 
 ## Technologies
 Project is created with: <BR> <BR>
